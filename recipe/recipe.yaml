@@ -27,6 +27,7 @@ tests:
   - python:
       imports:
         - editorconfig
+      python_version: ${{ python_min }}.*
 
 about:
   homepage: http://editorconfig.org/
